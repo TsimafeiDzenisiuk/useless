@@ -13,6 +13,7 @@
 	fgets(name, 255, stdin);
 	name[strlen(name)-1]='\0\; /* remove the newline at the end */
         printf("Hello %s!\n", name);
+        printf("Hello dude!!!");
 >>>>>>> parent of ee8f5c9 (prompt user fo last name as well.)
         return 0;
     }
